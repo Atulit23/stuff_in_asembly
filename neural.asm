@@ -81,3 +81,6 @@ section .text:
     global _start   
     global leaky_relu_derivative
     global leaky_relu
+
+
+ ld -m elf_i386 rstr.o -o rstr
